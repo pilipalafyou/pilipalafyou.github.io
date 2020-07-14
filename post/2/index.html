@@ -1,58 +1,112 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>2 | 噼里啪啦FYOU</title>
-<link rel="shortcut icon" href="https://pilipalafyou.GitHub.io/favicon.ico?v=1594721200113">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    
+<meta charset="utf-8" >
+
+<title>02 | 噼里啪啦FYOU</title>
+<meta name="description" content="Crackling
+ばちゃと音がする
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://pilipalafyou.GitHub.io/favicon.ico?v=1594733409713">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://pilipalafyou.GitHub.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="2 | 噼里啪啦FYOU - Atom Feed" href="https://pilipalafyou.GitHub.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="测试
-" />
-    <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://pilipalafyou.GitHub.io">
-  <img class="avatar" src="https://pilipalafyou.GitHub.io/images/avatar.png?v=1594721200113" alt="">
-  </a>
-  <h1 class="site-title">
-    噼里啪啦FYOU
-  </h1>
-  <p class="site-description">
-    Crackling
-ばちゃと音がする
-
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="https://share.weiyun.com/Sm8jJQMj" class="menu">
-          视频
-        </a>
-      
-    
-      
-        <a href="https://share.weiyun.com/Hw4F8iKg" class="menu">
-          照片
-        </a>
-      
-    
-      
-        <a href="https://s.wcd.im/v/2k8gkZ3g/" class="menu">
-          关于
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://pilipalafyou.GitHub.io">
+        <img class="avatar" src="https://pilipalafyou.GitHub.io/images/avatar.png?v=1594733409713" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://pilipalafyou.GitHub.io">
+        <h1 class="site-title">噼里啪啦FYOU</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="https://pilipalafyou.GitHub.io" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://pilipalafyou.GitHub.io/tags" class="menu purple-link">
+            分类
+          </a>
+        
+      
+        
+          <a href="https://s.wcd.im/v/2k8gkZ3g/" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+            <div class="feature-container" style="background-image: url('https://pilipalafyou.GitHub.io/post-images/2.jpg')">
+            </div>
+          
+          <h2 class="post-title">02</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-07-14</span>
+            
+          </div>
+          <div class="post-content">
+            <p>测试</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://pilipalafyou.GitHub.io/post/www.baidu.com/">
+              <h3 class="post-title">
+                下一篇：01
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">Crackling
+ばちゃと音がする
+</div>
   <div class="social-container">
     
       
@@ -66,99 +120,26 @@
       
     
   </div>
+  Powered by ☮pilipalaFYOU | <a class="rss" href="https://pilipalafyou.GitHub.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              2
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-07-14
-              </span>
-              <span>
-                1 min read
-              </span>
-              
-            </div>
-            
-              <img class="post-feature-image" src="https://pilipalafyou.GitHub.io/post-images/2.jpg" alt="">
-            
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>测试</p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
-            </div>
-          </article>
-        </div>
-
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://pilipalafyou.GitHub.io/post/01/">
-              <h3 class="post-title">
-                01
-              </h3>
-            </a>
-          </div>
-        
-
-        
-
-        <div class="site-footer">
-  Powered by ☮pilipalaFYOU
-  <a class="rss" href="https://pilipalafyou.GitHub.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
     </div>
+    <script type="application/javascript">
 
-    <script>
-      hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+</script>
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
   </body>
 </html>
