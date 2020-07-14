@@ -976,20 +976,20 @@ td {
 }
 
       .main {
-        max-width: 1200px;
+        max-width: 900px;
       }
     
       .post-container .post .post-title {
-        text-align: right;
+        text-align: left;
       }
       .post-container .post .post-info {
-        text-align: right;
+        text-align: left;
       }
       .post-detail .post .post-title {
-        text-align: right;
+        text-align: left;
       }
       .post-detail .post .post-info {
-        text-align: right;
+        text-align: left;
       }
     
       body {
