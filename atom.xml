@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pilipalafyou.GitHub.io</id>
     <title>噼里啪啦FYOU</title>
-    <updated>2020-07-15T07:56:29.236Z</updated>
+    <updated>2020-07-15T09:29:43.457Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pilipalafyou.GitHub.io"/>
     <link rel="self" href="https://pilipalafyou.GitHub.io/atom.xml"/>
@@ -12,6 +12,13 @@
     <logo>https://pilipalafyou.GitHub.io/images/avatar.png</logo>
     <icon>https://pilipalafyou.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 噼里啪啦FYOU</rights>
+    <entry>
+        <title type="html"><![CDATA[video]]></title>
+        <id>https://pilipalafyou.GitHub.io/post/video/</id>
+        <link href="https://pilipalafyou.GitHub.io/post/video/">
+        </link>
+        <updated>2020-07-15T09:29:09.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[picture]]></title>
         <id>https://pilipalafyou.GitHub.io/post/picture/</id>
